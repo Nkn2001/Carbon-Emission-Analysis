@@ -22,6 +22,7 @@ SELECT * FROM product_emissions LIMIT 10;
 |10418-1-2013|84|9|19|2013|Portland Cement|1000.0|1102|N/a (product with insufficient stage-level data)|N/a (product with insufficient stage-level data)|N/a (product with insufficient stage-level data)|
 |10661-10-2014|85|28|11|2014|Regular Straight 505® Jeans – Steel (Water<Less™)|0.7665|15|N/a (product with insufficient stage-level data)|N/a (product with insufficient stage-level data)|N/a (product with insufficient stage-level data)|
 |10661-10-2015|85|28|6|2015|Regular Straight 505® Jeans – Steel (Water<Less™)|0.7665|15|N/a (product with insufficient stage-level data)|N/a (product with insufficient stage-level data)|N/a (product with insufficient stage-level data)|
+
 1.2 Table 'industry_groups'
 ```sql
 SELECT * FROM industry_groups LIMIT 10;
@@ -38,6 +39,7 @@ SELECT * FROM industry_groups LIMIT 10;
 |8|Capital Goods|
 |9|Chemicals|
 |10|Commercial & Professional Services|
+
 1.3 Table 'companies'
 ```sql
 SELECT * FROM companies LIMIT 10;
@@ -54,6 +56,7 @@ SELECT * FROM companies LIMIT 10;
 |8|"Elitegroup computer systems co., Ltd."|
 |9|"Fuji Xerox Co., Ltd."|
 |10|"Gamesa Corporación Tecnológica, S.A."|
+
 1.4 Table 'countries'
 ```sql
 SELECT * FROM countries  LIMIT 10;
@@ -70,6 +73,7 @@ SELECT * FROM countries  LIMIT 10;
 |8|Finland|
 |9|France|
 |10|Germany|
+
 2. Data Explore
 Data duplicate
 ```sql
