@@ -121,7 +121,7 @@ FROM product_emissions pe ;
 3.1 Which products contribute the most to carbon emissions?
 ```sql
 SELECT product_name,
-			ROUND(AVG(carbon_footprint_pcf),2) AS 'Average PCF'
+	ROUND(AVG(carbon_footprint_pcf),2) AS 'Average PCF'
 FROM product_emissions
 GROUP BY product_name 
 ORDER BY carbon_footprint_pcf DESC
