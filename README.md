@@ -118,7 +118,7 @@ FROM product_emissions pe ;
 |1037|661|
 
 ## 3. Data Analysis 
-###3.1 Which products contribute the most to carbon emissions?
+3.1 Which products contribute the most to carbon emissions?
 ```sql
 SELECT product_name,
 			ROUND(AVG(carbon_footprint_pcf),2) AS 'Average PCF'
@@ -144,6 +144,8 @@ LIMIT 10;
 In the list of products, Wind Turbines have the highest PCF (Product Carbon Footprint), indicating that the production and operation of these wind turbines generate a large amount of carbon emissions, even though they are renewable energy products.
 On the other hand, products such as Mercedes-Benz cars and Land Cruiser Prado have lower PCF values, ranging from 72,000 to 191,687, showing that while these products have considerable carbon emissions, they are still lower than the large wind turbines.
 
+3.2 What are the industry groups of these products?
+```sql
 
 
 
