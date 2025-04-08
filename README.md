@@ -10,7 +10,6 @@ The dataset consists of 4 tables containing information regarding carbon emissio
 ```sql
 SELECT * FROM product_emissions LIMIT 10;
 ```
-The sult
 |id|company_id|country_id|industry_group_id|year|product_name|weight_kg|carbon_footprint_pcf|upstream_percent_total_pcf|operations_percent_total_pcf|downstream_percent_total_pcf|
 |--|----------|----------|-----------------|----|------------|---------|--------------------|--------------------------|----------------------------|----------------------------|
 |10056-1-2014|82|28|2|2014|Frosted Flakes(R) Cereal|0.7485|2|57.50|30.00|12.50|
@@ -27,7 +26,6 @@ The sult
 ```sql
 SELECT * FROM industry_groups LIMIT 10;
 ```
-The sult
 |id|industry_group|
 |--|--------------|
 |1|"Consumer Durables, Household and Personal Products"|
@@ -44,7 +42,6 @@ The sult
 ```sql
 SELECT * FROM companies LIMIT 10;
 ```
-The sult
 |id|company_name|
 |--|------------|
 |1|"Autodesk, Inc."|
@@ -61,7 +58,6 @@ The sult
 ```sql
 SELECT * FROM countries  LIMIT 10;
 ```
-The sult
 |id|country_name|
 |--|------------|
 |1|Australia|
@@ -94,7 +90,6 @@ downstream_percent_total_pcf
 HAVING COUNT(*) >1
 LIMIT 10;
 ```
-The sult
 |id|company_id|country_id|industry_group_id|year|product_name|weight_kg|carbon_footprint_pcf|upstream_percent_total_pcf|operations_percent_total_pcf|downstream_percent_total_pcf|duplicate_count|
 |--|----------|----------|-----------------|----|------------|---------|--------------------|--------------------------|----------------------------|----------------------------|---------------|
 |10056-1-2014|82|28|2|2014|Frosted Flakes(R) Cereal|0.7485|2|57.50|30.00|12.50|2|
@@ -114,7 +109,6 @@ SELECT COUNT(product_name) as 'Total number of products',
 			COUNT(DISTINCT product_name) as 'Number of unique products'
 FROM product_emissions pe ;
 ```
-The sult
 |Total number of products|Number of unique products|
 |------------------------|-------------------------|
 |1037|661|
