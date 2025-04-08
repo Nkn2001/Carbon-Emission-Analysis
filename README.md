@@ -141,6 +141,7 @@ LIMIT 10;
 |Mercedes-Benz SL (SL 350)|72000.00|
 
 3.1.1 Conclusion:
+
 In the list of products, Wind Turbines have the highest PCF (Product Carbon Footprint), indicating that the production and operation of these wind turbines generate a large amount of carbon emissions, even though they are renewable energy products.
 On the other hand, products such as Mercedes-Benz cars and Land Cruiser Prado have lower PCF values, ranging from 72,000 to 191,687, showing that while these products have considerable carbon emissions, they are still lower than the large wind turbines.
 
